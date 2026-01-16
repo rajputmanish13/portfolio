@@ -19,43 +19,44 @@
 
         body {
             background: #050505;
-            color: #fff
+            color: #fff;
+            line-height: 1.6
         }
 
         /* COMMON */
         section {
-            padding: 90px 40px;
+            padding: 90px 40px
         }
 
         .container {
             max-width: 1100px;
-            margin: auto;
+            margin: auto
         }
 
         h2 {
-            font-size: 2.5rem;
+            font-size: 2.4rem;
             margin-bottom: 30px;
-            color: #38bdf8;
+            color: #38bdf8
         }
 
         /* HERO */
         .hero {
             min-height: 100vh;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            align-items: center
         }
 
         .hero-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 60px;
-            align-items: center;
+            align-items: center
         }
 
         .hero h1 {
             font-size: 4rem;
             font-weight: 800;
+            line-height: 1.1
         }
 
         .hero h1 span {
@@ -67,14 +68,15 @@
             color: #cbd5f5
         }
 
+        /* BUTTONS */
         .btn {
             display: inline-block;
             padding: 14px 32px;
             border-radius: 30px;
             background: #38bdf8;
             color: #020617;
-            text-decoration: none;
             font-weight: 700;
+            text-decoration: none;
             margin-right: 15px;
         }
 
@@ -86,8 +88,8 @@
 
         /* IMAGE */
         .profile {
-            width: 320px;
-            height: 320px;
+            width: 300px;
+            height: 300px;
             border-radius: 50%;
             border: 5px solid #38bdf8;
             overflow: hidden;
@@ -97,10 +99,10 @@
         .profile img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: cover
         }
 
-        /* EXPERIENCE */
+        /* CARDS */
         .card {
             background: #0b0b0b;
             padding: 25px;
@@ -127,14 +129,40 @@
         .skill {
             background: #0b0b0b;
             padding: 20px;
-            text-align: center;
             border-radius: 12px;
+            text-align: center;
         }
 
         .skill i {
             font-size: 2.5rem;
             color: #38bdf8;
-            margin-bottom: 10px;
+            margin-bottom: 10px
+        }
+
+        /* CONTACT */
+        .contact-box {
+            background: #0b0b0b;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .contact-box p {
+            margin: 12px 0;
+            font-size: 1.1rem
+        }
+
+        .contact-box a {
+            color: #38bdf8;
+            text-decoration: none
+        }
+
+        /* FOOTER */
+        footer {
+            background: #020617;
+            padding: 30px;
+            text-align: center;
+            color: #94a3b8;
         }
 
         /* RESPONSIVE */
@@ -173,8 +201,8 @@
         <div class="container">
             <h2>About Me</h2>
             <p>
-                I am an MCA graduate and aspiring Software Engineer with strong
-                foundations in Java, Python, Data Structures, and Full Stack Development.
+                I am an MCA graduate and aspiring Software Engineer with strong foundations
+                in Java, Python, Data Structures, and Full Stack Development.
                 I also have academic experience as an Assistant Professor, mentoring
                 students and delivering technical lectures.
             </p>
@@ -190,8 +218,8 @@
                 <h3>Assistant Professor – Raj School of Management Sciences</h3>
                 <span>Aug 2024 – Apr 2025 | Varanasi</span>
                 <p>
-                    Delivered lectures on Java, Python, and DBMS. Mentored students
-                    on academic projects and lab work, improving overall technical skills.
+                    Delivered lectures on Java, Python, and DBMS. Mentored students on
+                    academic projects and lab work.
                 </p>
             </div>
 
@@ -199,8 +227,8 @@
                 <h3>Assistant Professor – Dr. Ghanshyam Singh PG College</h3>
                 <span>May 2025 – Present | Varanasi</span>
                 <p>
-                    Teaching Python programming and guiding BCA students in practical
-                    software development projects.
+                    Teaching Python programming and guiding BCA students in
+                    practical software development projects.
                 </p>
             </div>
 
@@ -248,27 +276,28 @@
                 <h3>Hospital Management System</h3>
                 <p>
                     Desktop-based application to manage patient records, billing,
-                    appointments, and doctor schedules.
-                    <br><b>Tech:</b> Java, MySQL, JDBC, Swing
+                    appointments, and doctor schedules.<br>
+                    <b>Tech:</b> Java, MySQL, JDBC, Swing
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- EDUCATION -->
+    <!-- CONTACT -->
     <section>
         <div class="container">
-            <h2>Education</h2>
-            <div class="card">
-                <h3>MCA – Dr. A.P.J. Abdul Kalam Technical University</h3>
-                <span>2024</span>
-            </div>
-            <div class="card">
-                <h3>BCA – Mahatma Gandhi Kashi Vidyapith</h3>
-                <span>2021</span>
+            <h2>Contact</h2>
+            <div class="contact-box">
+                <p>📧 Email: <a href="mailto:rajputvickysingh9198@gmail.com">
+                        rajputvickysingh9198@gmail.com</a></p>
+                <p>📞 Phone: <a href="tel:+917905258520">+91 7905258520</a></p>
             </div>
         </div>
     </section>
+
+    <footer>
+        © 2026 Manish Singh Rajput • Software Engineer
+    </footer>
 
 </body>
 
